@@ -1,0 +1,59 @@
+* {
+  --background-color-main: #1f293f;
+  --main-text: #f9faf8;
+  --secondary-text: #e5e7eb;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Header and navbar section */
+.header {
+  background-color: var(--background-color-main);
+  color: var(--main-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-menu {
+  display: flex;
+}
+
+.nav-item {
+  list-style-type: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+/* Main section */
+.content {
+  flex: 1;
+}
+
+/* Section 1 */
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.left {
+}
+
+.right {
+}
+
+/* Footer section */
+.footer {
+  text-align: center;
+  background-color: var(--background-color-main);
+  color: var(--main-text);
+}
